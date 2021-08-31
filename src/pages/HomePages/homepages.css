@@ -1,0 +1,50 @@
+.body{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.card-body{
+    color: white;
+    background-color: black;
+}
+
+.card-text{
+    font-size: 14px;
+}
+
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-container{
+    border: none;
+}
+.load-txt{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+
+.search-bar{
+    padding-left: 23px;
+    padding-right: 23px;
+}
+.no-fav{
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,57 @@
+.audio-container{
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: solid white 0.6px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    justify-content: space-between;
+    justify-items: baseline;
+    padding-right: 10px;
+
+}
+
+.audio-container span{
+    padding-left: 10px;
+    color: white;
+    font-size: 16px;
+}
+.card-flex{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.album-cover{
+    height: 288px;
+    width: 288px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    background-color: black;
+}
+
+
+.title-card{
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+}
+
+.love-btn{
+    display: none;
+}
+.love-o-btn:hover{
+    display: none;
+}
+.load-txt{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}

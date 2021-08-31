@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+/* ES */
+
+.navbar{
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.white-text{
+  color: white;
+}
+.black-bg{
+  background-color: black;
+}
+
+.margin-fbt{
+  margin: 10px;
+}
+.sbt{
+  height: 50px;
+}
