@@ -2,4 +2,4 @@
 
 # Spotesfy
 
-Front end made with React JS, with Spotify GraphQL API
+Front end made that simulate Spotify using React JS, with Spotify GraphQL API
