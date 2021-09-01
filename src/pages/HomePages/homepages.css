@@ -1,0 +1,88 @@
+.body{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.card-body{
+    color: white;
+    background-color: black;
+}
+
+.card-text{
+    font-size: 14px;
+    margin-top: 5px;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-container{
+    border: none;
+    background-color: black;
+}
+.load-txt{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+
+.search-bar{
+    padding-left: 23px;
+    padding-right: 23px;
+}
+.no-fav{
+    color: white;
+    text-align: center;
+}
+
+
+audio {
+    filter: sepia(10%) saturate(70%) grayscale(2) contrast(40%) invert(12%);
+    width: 330px;
+    height: 30px;
+    
+}
+
+.album-cover{
+    border-radius: 10px;
+}
+
+.album-cov{
+    border-radius: 10px;
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+    transform: scale(1.1); 
+    text-decoration: none;
+}
+
+.love{
+    padding-bottom: 20px;
+}
+
+.flex-card-text{
+    display: flex;
+    justify-content: space-between;
+}
