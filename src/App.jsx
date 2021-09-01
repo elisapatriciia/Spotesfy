@@ -1,14 +1,12 @@
 // import logo from './logo.svg';
-import { Route, Switch, NavLink, Link } from 'react-router-dom'
+import { Route, Switch, Link } from 'react-router-dom'
 import { BrowserRouter as Router } from 'react-router-dom'
 import './App.css';
 import HomePages from './pages/HomePages/HomePages';
 import { Nav, Navbar } from 'react-bootstrap';
-import { Button } from 'react-bootstrap';
-import { Form } from 'react-bootstrap';
-import { FormControl } from 'react-bootstrap';
 import Favorite from './pages/Favorite/Favorite';
 import DetailPage from './pages/DetailPage/DetailPage';
+
 
 function App() {
   return (
@@ -27,7 +25,7 @@ function App() {
                 <Nav.Link as={Link} to="/" className="white-text">Home</Nav.Link>
                 <Nav.Link as={Link} to="/favorite" className="white-text">Favorite</Nav.Link>
               </Nav>
-           
+
             </Navbar.Collapse>
           </Navbar>
           

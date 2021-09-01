@@ -35,7 +35,7 @@ function Favorite (){
     }else{
         return(
              <div >
-                 <h1 className="no-fav">Favorite</h1>
+                 <h1 className="no-fav">Favorites</h1>
                  <div className="body">
                     {
                         FAV?.map(fav => {
