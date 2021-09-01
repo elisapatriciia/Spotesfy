@@ -23,7 +23,7 @@ function App() {
                 navbarScroll
               >
                 <Nav.Link as={Link} to="/" className="white-text">Home</Nav.Link>
-                <Nav.Link as={Link} to="/favorite" className="white-text">Favorite</Nav.Link>
+                <Nav.Link as={Link} to="/favorite" className="white-text">Favorites</Nav.Link>
               </Nav>
 
             </Navbar.Collapse>
